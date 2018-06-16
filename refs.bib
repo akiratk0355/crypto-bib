@@ -181,6 +181,18 @@
 	year = {2018},
 	note = {\url{https://eprint.iacr.org/2018/396}},
 }
+@article{TCHES:TTA18,
+	title={New {B}leichenbacher Records: Fault Attacks on q{DSA} Signatures},
+	author = {Akira Takahashi and Mehdi Tibouchi and Masayuki Abe},
+	journal={{IACR} Transactions on Cryptographic Hardware and Embedded Systems},
+	volume={2018},
+	number={3},
+	pages={xx--xx},
+	year={2018},
+	note={to appear},
+	publisher={}
+}
+
 
 # lattice algorithms
 @article{DBLP:journals/mp/SchnorrE94,
@@ -403,6 +415,40 @@
 	publisher = {IEEE}
 }
 
+# invalid curve attacks
+@inproceedings{DBLP:conf/pkc/AntipaBMSV03,
+	author    = {Adrian Antipa and
+	Daniel R. L. Brown and
+	Alfred Menezes and
+	Ren{\'{e}} Struik and
+	Scott A. Vanstone},
+	title     = {Validation of Elliptic Curve Public Keys},
+	booktitle = {{PKC} 2003},
+	pages     = {211--223},
+	year      = {2003}
+}
+@inproceedings{DBLP:conf/acns/KimT14,
+	author    = {Taechan Kim and
+	Mehdi Tibouchi},
+	title     = {Bit-Flip Faults on Elliptic Curve Base Fields, Revisited},
+	booktitle = {{ACNS} 2014},
+	pages     = {163--180},
+	year      = {2014}
+}
+@article{DBLP:journals/iet-ifs/NevesT18,
+	author    = {Samuel Neves and
+	Mehdi Tibouchi},
+	title     = {Degenerate curve attacks: extending invalid curve attacks to Edwards
+	curves and other models},
+	journal   = {{IET} Information Security},
+	volume    = {12},
+	number    = {3},
+	pages     = {217--225},
+	year      = {2018}
+}
+
+
+
 # knapsack
 @article{schroeppel1981t,
 	title={A {$T=O(2^{n/2}), S=O(2^{n/4})$} Algorithm for Certain {NP}-Complete Problems},
@@ -573,6 +619,14 @@
 }
 
 # standards
+@manual{sec2,
+	title={{SEC} 2: Recommended Elliptic Curve Domain Parameters},
+	author={},
+	note={Version 2.0},
+	organization={Standards for Efficient Cryptography Group ({SECG})},
+	Howpublished = {\url{http://www.secg.org/sec2-v2.pdf}},
+	year={2010}
+}
 @manual{emv,
 	title={{EMV} Integrated Circuit Card Specifications for Payment Systems, {B}ook 2 -- 
 	Security and Key Management},
@@ -586,6 +640,7 @@
 	author={Gallagher, Patrick},
 	note={{FIPS PUB} 186--4},
 	organization={NIST},
+	Howpublished = {\url{https://nvlpubs.nist.gov/nistpubs/fips/nist.fips.186-4.pdf}},
 	year={2013}
 }
 @manual{rfc7748,
