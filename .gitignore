@@ -1,0 +1,40 @@
+# executables
+test_openssl
+
+# Python
+.ipynb_checkpoints/
+__pycache__/
+.project
+.pydevproject
+
+# C/C++
+*.o
+*.a
+*.bin
+include/
+lib/
+bin/
+
+# Eclipse
+.settings/
+
+# tex
+*.aux
+*.dvi
+*.log
+*.toc
+*.blg
+*.bbl
+*.glo
+*.glg
+*.gls
+*.out
+*.xdy
+*.xbb
+*.snm
+*.nav
+*.synctex.gz
+*~
+*#
+.#*
+*.pdf
