@@ -13,6 +13,22 @@
   year = {2014}
 }
 
+@inproceedings{acisp/kim+18,
+  abstract = {In this paper, we propose secret-sharing-based bit-decomposition and modulus-conversion protocols for a prime order ring $\mathbb{Z}$𝑝Zp$\backslash$mathbb \{Z\}\_p with an honest majority: an adversary can corrupt 𝑘-1k-1k-1 parties of n parties and 2𝑘-1$\leq$𝑛2k-1$\leq$n2k-1 $\backslash$le n. Our protocols are secure against passive and active adversaries depending on the components of our protocols. We assume a secret is an $\mathscr{l}\mathscr{l}\backslash$ell -bit element and 2$\mathscr{l}$+$\lceil$log𝑚$\rceil{}<$𝑝2$\mathscr{l}$+$\lceil$log⁡m$\rceil{}<$p2\^\{$\backslash$ell +$\backslash$lceil $\backslash$log m $\backslash$rceil \} $<$ p, where 𝑚=𝑘m=km= k in the passive security and 𝑚=(𝑛𝑘-1)m=(nk-1)m= $\backslash$left( \{$\backslash$begin\{array\}\{c\}n$\backslash\backslash$ k-1$\backslash$end\{array\}\}$\backslash$right) in the active security. The outputs of our bit-decomposition and modulus-conversion protocols are $\mathscr{l}\mathscr{l}\backslash$ell tuple of shares in $\mathbb{Z}$2Z2$\backslash$mathbb \{Z\}\_2 and a share in $\mathbb{Z}$𝑝${'}$Zp${'}\backslash$mathbb \{Z\}\_\{p'\}, respectively, where 𝑝${'}$p${'}$p' is the modulus after the conversion. If k and n are small, the communication complexity of our passively secure bit-decomposition and modulus-conversion protocols are 𝑂($\mathscr{l}$)O($\mathscr{l}$)O($\backslash$ell ) bits and 𝑂($\lceil$log𝑝${'}\rceil$)O($\lceil$log⁡p${'}\rceil$)O($\backslash$lceil $\backslash$log p' $\backslash$rceil ) bits, respectively. Our key observation is that a quotient of additive shares can be computed from the least significant $\lceil$log𝑚$\rceil\lceil$log⁡m$\rceil\backslash$lceil $\backslash$log m $\backslash$rceil bits. If a secret a is ``shifted'' and additively shared as 𝑥𝑖xix\_is so that 2$\lceil$log𝑚$\rceil$𝑎=$\sum$𝑚-1𝑖=0𝑥𝑖=2$\lceil$log𝑚$\rceil$𝑎+𝑞𝑝2$\lceil$log⁡m$\rceil$a=$\sum$i=0m-1xi=2$\lceil$log⁡m$\rceil$a+qp2\^\{$\backslash$lceil $\backslash$log m $\backslash$rceil \}a = \{$\backslash$sum \_\{i=0\}\^\{m-1\}\}x\_i = 2\^\{ $\backslash$lceil $\backslash$log m $\backslash$rceil \} a + qp, the least significant $\lceil$log𝑚$\rceil\lceil$log⁡m$\rceil\backslash$lceil $\backslash$log m $\backslash$rceil bits of $\sum$𝑚-1𝑖=0𝑥𝑖$\sum$i=0m-1xi$\backslash$sum \_\{i=0\}\^\{m-1\} x\_i determine q since p is an odd prime and the least significant $\lceil$log𝑚$\rceil\lceil$log⁡m$\rceil\backslash$lceil $\backslash$log m $\backslash$rceil bits of 2$\lceil$log𝑚$\rceil$𝑎2$\lceil$log⁡m$\rceil$a2\^\{$\backslash$lceil $\backslash$log m $\backslash$rceil \} a are 0s.},
+  author = {Kikuchi, Ryo and Ikarashi, Dai and Matsuda, Takahiro and Hamada, Koki and Chida, Koji},
+  booktitle = {{{ACISP}} 2018},
+  editor = {Susilo, Willy and Yang, Guomin},
+  isbn = {978-3-319-93638-3},
+  keywords = {Bit decomposition,Honest majority,Modulus conversion,Secret sharing,Secure computation},
+  language = {en},
+  pages = {64-82},
+  publisher = {{Springer International Publishing}},
+  series = {LNCS},
+  title = {Efficient {{Bit}}-{{Decomposition}} and {{Modulus}}-{{Conversion Protocols}} with an {{Honest Majority}}},
+  volume = {10946},
+  year = {2018}
+}
+
 @inproceedings{acisp/ss01,
   author = {Stinson, Douglas R. and Strobl, Reto},
   booktitle = {{{ACISP}} 2001},
@@ -1251,6 +1267,19 @@
   year = {2016}
 }
 
+@article{ches/ryan18,
+  author = {Ryan, Keegan},
+  copyright = {Copyright (c) 2018 IACR Transactions on Cryptographic Hardware and Embedded Systems},
+  doi = {10.13154/tches.v2019.i1.146-168},
+  issn = {2569-2925},
+  journal = {IACR Transactions on Cryptographic Hardware and Embedded Systems},
+  keywords = {(EC)DSA cryptanalysis,hidden number,key extraction,lattice attacks,problem,side-channel attacks},
+  language = {en},
+  pages = {146-168},
+  title = {Return of the {{Hidden Number Problem}}.},
+  year = {2019}
+}
+
 @inproceedings{ches/sa02,
   author = {Skorobogatov, Sergei P. and Anderson, Ross J.},
   booktitle = {{{CHES}} 2002},
@@ -1907,6 +1936,21 @@
   year = {2015}
 }
 
+@inproceedings{ctrsa/tof09,
+  author = {Toft, Tomas},
+  booktitle = {{{CT}}-{{RSA}} 2009},
+  editor = {Fischlin, Marc},
+  isbn = {978-3-642-00862-7},
+  keywords = {Bit-decomposition,Constant-rounds Multi-party Computation,Secret Sharing},
+  language = {en},
+  pages = {357-371},
+  publisher = {{Springer Berlin Heidelberg}},
+  series = {LNCS},
+  title = {Constant-{{Rounds}}, {{Almost}}-{{Linear Bit}}-{{Decomposition}} of {{Secret Shared Values}}},
+  volume = {5473},
+  year = {2009}
+}
+
 @article{dam/cm11,
   author = {Chatterjee, Sanjit and Menezes, Alfred},
   doi = {10.1016/j.dam.2011.04.021},
@@ -2093,7 +2137,6 @@
 }
 
 @misc{eprint/dt08,
-  abstract = {We show how to effectively convert a secret-shared bitover a prime field to another field. If initially given a random replicated secret share this conversion can be done by the cost of revealing one secret shared value. By using a pseudo-random function it is possible to convert arbitrary many bit values from one initial random replicated share. Furthermore, we generalize the conversion to handle general values of a bounded size.},
   author = {Damgard, Ivan and Thorbek, Rune},
   keywords = {conversion,cryptographic protocols},
   title = {Efficient {{Conversion}} of {{Secret}}-Shared {{Values Between Different Fields}}},
@@ -2510,6 +2553,19 @@
   year = {2018}
 }
 
+@inproceedings{euro/kls18,
+  author = {Kiltz, Eike and Lyubashevsky, Vadim and Schaffner, Christian},
+  booktitle = {{{EUROCRYPT}} 2018},
+  editor = {Nielsen, Jesper Buus and Rijmen, Vincent},
+  isbn = {978-3-319-78372-7},
+  language = {en},
+  pages = {552-586},
+  publisher = {{Springer International Publishing}},
+  series = {Lecture Notes in Computer Science},
+  title = {A {{Concrete Treatment}} of {{Fiat}}-{{Shamir Signatures}} in the {{Quantum Random}}-{{Oracle Model}}},
+  year = {2018}
+}
+
 @inproceedings{euro/los+10,
   address = {Berlin, Heidelberg},
   author = {Lewko, Allison and Okamoto, Tatsuaki and Sahai, Amit and Takashima, Katsuyuki and Waters, Brent},
@@ -2801,6 +2857,20 @@
   publisher = {{IEEE}},
   title = {Is Multiparty Computation Any Good in Practice?},
   year = {2011}
+}
+
+@inproceedings{icisc/rt09,
+  author = {Reistad, Tord and Toft, Tomas},
+  booktitle = {{{ICISC}} 2009},
+  editor = {Lee, Donghoon and Hong, Seokhie},
+  isbn = {978-3-642-14423-3},
+  keywords = {bit- decomposition,secure multiparty computation},
+  language = {en},
+  pages = {245-257},
+  publisher = {{Springer Berlin Heidelberg}},
+  series = {Lecture Notes in Computer Science},
+  title = {Linear, {{Constant}}-{{Rounds Bit}}-{{Decomposition}}},
+  year = {2010}
 }
 
 @article{ieee/bcn+06,
@@ -3236,6 +3306,22 @@
   title = {The {{Insecurity}} of the {{Digital Signature Algorithm}} with {{Partially Known Nonces}}},
   volume = {15},
   year = {2002}
+}
+
+@article{joc/pdvw14,
+  abstract = {We provide a more general and, in our eyes, simpler variant of Prabhakaran, Rosen and Sahai's (FOCS '02, pp. 366\textendash{}375, 2002) analysis of the concurrent zero-knowledge simulation technique of Kilian and Petrank (STOC '01, pp. 560\textendash{}569, 2001).},
+  author = {Pass, Rafael and Dustin Tseng, Wei-Lung and Venkitasubramaniam, Muthuramakrishnan},
+  doi = {10.1007/s00145-012-9137-2},
+  issn = {1432-1378},
+  journal = {Journal of Cryptology},
+  keywords = {Concurrency,Oblivious simulation,Zero-knowledge},
+  language = {en},
+  month = jan,
+  number = {1},
+  pages = {45-66},
+  title = {Concurrent {{Zero Knowledge}}, {{Revisited}}},
+  volume = {27},
+  year = {2014}
 }
 
 @article{joc/schnorr91,
@@ -4315,6 +4401,21 @@
   year = {2005}
 }
 
+@inproceedings{pkc/no07,
+  author = {Nishide, Takashi and Ohta, Kazuo},
+  booktitle = {{{PKC}} 2007},
+  editor = {Okamoto, Tatsuaki and Wang, Xiaoyun},
+  isbn = {978-3-540-71677-8},
+  keywords = {Bitwise Sharing,Multiparty Computation,Secret Sharing},
+  language = {en},
+  pages = {343-360},
+  publisher = {{Springer Berlin Heidelberg}},
+  series = {LNCS},
+  title = {Multiparty {{Computation}} for {{Interval}}, {{Equality}}, and {{Comparison Without Bit}}-{{Decomposition Protocol}}},
+  volume = {4450},
+  year = {2007}
+}
+
 @inproceedings{pkc/op01,
   address = {Berlin, Heidelberg},
   author = {Okamoto, Tatsuaki and Pointcheval, David},
@@ -4424,6 +4525,20 @@
   series = {Lecture Notes in Computer Science},
   title = {Lattice {{Attacks Against Elliptic}}-{{Curve Signatures}} with {{Blinded Scalar Multiplication}}},
   year = {2017}
+}
+
+@inproceedings{scn/bdl+18,
+  author = {Baum, Carsten and Damg\aa{}rd, Ivan and Lyubashevsky, Vadim and Oechsner, Sabine and Peikert, Chris},
+  booktitle = {{{SCN}} 2018},
+  editor = {Catalano, Dario and De Prisco, Roberto},
+  isbn = {978-3-319-98113-0},
+  language = {en},
+  pages = {368-385},
+  publisher = {{Springer International Publishing}},
+  series = {Lecture Notes in Computer Science},
+  title = {More {{Efficient Commitments}} from {{Structured Lattice Assumptions}}},
+  volume = {11035},
+  year = {2018}
 }
 
 @inproceedings{scn/co18,
@@ -4683,10 +4798,11 @@
 }
 
 @inproceedings{sp/dkl19,
-  author = {Doerner, Jack and Kondi, Yashvanth and Lee, Eysa},
+  author = {Doerner, Jack and Kondi, Yashvanth and Lee, Eysa and {shelat}, abhi},
   language = {en},
   pages = {16},
-  title = {Threshold {{ECDSA}} from {{ECDSA Assumptions}}: {{The Multiparty Case}}}
+  title = {Threshold {{ECDSA}} from {{ECDSA Assumptions}}: {{The Multiparty Case}}},
+  year = {2019}
 }
 
 @inproceedings{sp/dkls18,
@@ -4726,7 +4842,8 @@
   booktitle = {{{STOC}} 2002},
   language = {en},
   pages = {86},
-  title = {Universally {{Composable Two}}-{{Party}} and {{Multi}}-{{Party Secure Computation}}}
+  title = {Universally {{Composable Two}}-{{Party}} and {{Multi}}-{{Party Secure Computation}}},
+  year = {2002}
 }
 
 @inproceedings{stoc/gmw87,
@@ -4893,6 +5010,21 @@
   year = {2005}
 }
 
+@inproceedings{tcc/dfk+06,
+  author = {Damg\aa{}rd, Ivan and Fitzi, Matthias and Kiltz, Eike and Nielsen, Jesper Buus and Toft, Tomas},
+  booktitle = {{{TCC}} 2006},
+  editor = {Halevi, Shai and Rabin, Tal},
+  isbn = {978-3-540-32732-5},
+  keywords = {Modulo Reduction,Multiplication Protocol,Secret Sharing Scheme,Secure Protocol,Symmetric Boolean Function},
+  language = {en},
+  pages = {285-304},
+  publisher = {{Springer Berlin Heidelberg}},
+  series = {LNCS},
+  title = {Unconditionally {{Secure Constant}}-{{Rounds Multi}}-Party {{Computation}} for {{Equality}}, {{Comparison}}, {{Bits}} and {{Exponentiation}}},
+  volume = {3876},
+  year = {2006}
+}
+
 @inproceedings{tcc/dmn11,
   address = {Berlin, Heidelberg},
   author = {Damg\aa{}rd, Ivan and Meldgaard, Sigurd and Nielsen, Jesper Buus},
@@ -4905,6 +5037,20 @@
   title = {Perfectly {{Secure Oblivious RAM}} without {{Random Oracles}}},
   volume = {6597},
   year = {2011}
+}
+
+@inproceedings{tcc/ikm+13,
+  author = {Ishai, Yuval and Kushilevitz, Eyal and Meldgaard, Sigurd and Orlandi, Claudio and {Paskin-Cherniavsky}, Anat},
+  booktitle = {{{TCC}} 2013},
+  editor = {Sahai, Amit},
+  isbn = {978-3-642-36594-2},
+  keywords = {Correlate Randomness,Homomorphic Encryption,Message Authentication Code,Secure Computation,Secure Protocol},
+  language = {en},
+  pages = {600-620},
+  publisher = {{Springer Berlin Heidelberg}},
+  series = {Lecture Notes in Computer Science},
+  title = {On the {{Power}} of {{Correlated Randomness}} in {{Secure Computation}}},
+  year = {2013}
 }
 
 @inproceedings{tcc/js05,
