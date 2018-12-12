@@ -14,7 +14,6 @@
 }
 
 @inproceedings{acisp/kim+18,
-  abstract = {In this paper, we propose secret-sharing-based bit-decomposition and modulus-conversion protocols for a prime order ring $\mathbb{Z}$𝑝Zp$\backslash$mathbb \{Z\}\_p with an honest majority: an adversary can corrupt 𝑘-1k-1k-1 parties of n parties and 2𝑘-1$\leq$𝑛2k-1$\leq$n2k-1 $\backslash$le n. Our protocols are secure against passive and active adversaries depending on the components of our protocols. We assume a secret is an $\mathscr{l}\mathscr{l}\backslash$ell -bit element and 2$\mathscr{l}$+$\lceil$log𝑚$\rceil{}<$𝑝2$\mathscr{l}$+$\lceil$log⁡m$\rceil{}<$p2\^\{$\backslash$ell +$\backslash$lceil $\backslash$log m $\backslash$rceil \} $<$ p, where 𝑚=𝑘m=km= k in the passive security and 𝑚=(𝑛𝑘-1)m=(nk-1)m= $\backslash$left( \{$\backslash$begin\{array\}\{c\}n$\backslash\backslash$ k-1$\backslash$end\{array\}\}$\backslash$right) in the active security. The outputs of our bit-decomposition and modulus-conversion protocols are $\mathscr{l}\mathscr{l}\backslash$ell tuple of shares in $\mathbb{Z}$2Z2$\backslash$mathbb \{Z\}\_2 and a share in $\mathbb{Z}$𝑝${'}$Zp${'}\backslash$mathbb \{Z\}\_\{p'\}, respectively, where 𝑝${'}$p${'}$p' is the modulus after the conversion. If k and n are small, the communication complexity of our passively secure bit-decomposition and modulus-conversion protocols are 𝑂($\mathscr{l}$)O($\mathscr{l}$)O($\backslash$ell ) bits and 𝑂($\lceil$log𝑝${'}\rceil$)O($\lceil$log⁡p${'}\rceil$)O($\backslash$lceil $\backslash$log p' $\backslash$rceil ) bits, respectively. Our key observation is that a quotient of additive shares can be computed from the least significant $\lceil$log𝑚$\rceil\lceil$log⁡m$\rceil\backslash$lceil $\backslash$log m $\backslash$rceil bits. If a secret a is ``shifted'' and additively shared as 𝑥𝑖xix\_is so that 2$\lceil$log𝑚$\rceil$𝑎=$\sum$𝑚-1𝑖=0𝑥𝑖=2$\lceil$log𝑚$\rceil$𝑎+𝑞𝑝2$\lceil$log⁡m$\rceil$a=$\sum$i=0m-1xi=2$\lceil$log⁡m$\rceil$a+qp2\^\{$\backslash$lceil $\backslash$log m $\backslash$rceil \}a = \{$\backslash$sum \_\{i=0\}\^\{m-1\}\}x\_i = 2\^\{ $\backslash$lceil $\backslash$log m $\backslash$rceil \} a + qp, the least significant $\lceil$log𝑚$\rceil\lceil$log⁡m$\rceil\backslash$lceil $\backslash$log m $\backslash$rceil bits of $\sum$𝑚-1𝑖=0𝑥𝑖$\sum$i=0m-1xi$\backslash$sum \_\{i=0\}\^\{m-1\} x\_i determine q since p is an odd prime and the least significant $\lceil$log𝑚$\rceil\lceil$log⁡m$\rceil\backslash$lceil $\backslash$log m $\backslash$rceil bits of 2$\lceil$log𝑚$\rceil$𝑎2$\lceil$log⁡m$\rceil$a2\^\{$\backslash$lceil $\backslash$log m $\backslash$rceil \} a are 0s.},
   author = {Kikuchi, Ryo and Ikarashi, Dai and Matsuda, Takahiro and Hamada, Koki and Chida, Koji},
   booktitle = {{{ACISP}} 2018},
   editor = {Susilo, Willy and Yang, Guomin},
@@ -1373,9 +1372,14 @@
 @inproceedings{crypto/agm18,
   author = {Agrawal, Shashank and Ganesh, Chaya and Mohassel, Payman},
   booktitle = {{{CRYPTO}} 2018},
+  editor = {Shacham, Hovav and Boldyreva, Alexandra},
+  isbn = {978-3-319-96878-0},
   language = {en},
-  pages = {42},
-  title = {Non-{{Interactive Zero}}-{{Knowledge Proofs}} for {{Composite Statements}}}
+  pages = {643-673},
+  publisher = {{Springer International Publishing}},
+  series = {Lecture Notes in Computer Science},
+  title = {Non-{{Interactive Zero}}-{{Knowledge Proofs}} for {{Composite Statements}}},
+  year = {2018}
 }
 
 @inproceedings{crypto/ais18,
@@ -1624,6 +1628,19 @@
   publisher = {{Springer, Cham}},
   series = {Lecture Notes in Computer Science},
   title = {Fast {{Distributed RSA Key Generation}} for {{Semi}}-Honest and {{Malicious Adversaries}}},
+  year = {2018}
+}
+
+@inproceedings{crypto/gkm+18,
+  author = {Groth, Jens and Kohlweiss, Markulf and Maller, Mary and Meiklejohn, Sarah and Miers, Ian},
+  booktitle = {{{CRYPTO}} 2018},
+  editor = {Shacham, Hovav and Boldyreva, Alexandra},
+  isbn = {978-3-319-96878-0},
+  language = {en},
+  pages = {698-728},
+  publisher = {{Springer International Publishing}},
+  series = {Lecture Notes in Computer Science},
+  title = {Updatable and {{Universal Common Reference Strings}} with {{Applications}} to~Zk-{{SNARKs}}},
   year = {2018}
 }
 
@@ -2204,6 +2221,14 @@
   year = {2016}
 }
 
+@misc{eprint/rgg+18,
+  author = {Ronen, Eyal and Gillham, Robert and Genkin, Daniel and Shamir, Adi and Wong, David and Yarom, Yuval},
+  keywords = {Bleichenbacher,Side-channels,TLS},
+  shorttitle = {The 9 {{Lives}} of {{Bleichenbacher}}'s {{CAT}}},
+  title = {The 9 {{Lives}} of {{Bleichenbacher}}'s {{CAT}}: {{New Cache ATtacks}} on {{TLS Implementations}}},
+  year = {2018}
+}
+
 @misc{eprint/riv11,
   author = {Rivain, Matthieu},
   howpublished = {Cryptology ePrint Archive, Report 2011/338},
@@ -2408,6 +2433,19 @@
   year = {1997}
 }
 
+@inproceedings{euro/bl18,
+  author = {Benhamouda, Fabrice and Lin, Huijia},
+  booktitle = {{{EUROCRYPT}} 2018},
+  editor = {Nielsen, Jesper Buus and Rijmen, Vincent},
+  isbn = {978-3-319-78375-8},
+  language = {en},
+  pages = {500-532},
+  publisher = {{Springer International Publishing}},
+  series = {Lecture Notes in Computer Science},
+  title = {K-{{Round Multiparty Computation}} from k-{{Round Oblivious Transfer}} via {{Garbled Interactive Circuits}}},
+  year = {2018}
+}
+
 @inproceedings{euro/cdm00,
   address = {Berlin, Heidelberg},
   author = {Cramer, Ronald and Damg\aa{}rd, Ivan and Maurer, Ueli},
@@ -2511,6 +2549,19 @@
   title = {On the {{Size}} of {{Pairing}}-{{Based Non}}-Interactive {{Arguments}}},
   volume = {9666},
   year = {2016}
+}
+
+@inproceedings{euro/gs18,
+  author = {Garg, Sanjam and Srinivasan, Akshayaram},
+  booktitle = {Advances in {{Cryptology}} \textendash{} {{EUROCRYPT}} 2018},
+  editor = {Nielsen, Jesper Buus and Rijmen, Vincent},
+  isbn = {978-3-319-78375-8},
+  language = {en},
+  pages = {468-499},
+  publisher = {{Springer International Publishing}},
+  series = {Lecture Notes in Computer Science},
+  title = {Two-{{Round Multiparty Secure Computation}} from {{Minimal Assumptions}}},
+  year = {2018}
 }
 
 @inproceedings{euro/hgj10,
@@ -3069,6 +3120,16 @@
   year = {2013}
 }
 
+@article{itcs/bgi+18,
+  author = {Boyle, Elette and Gilboa, Niv and Ishai, Yuval and Lin, Huijia and Tessaro, Stefano},
+  doi = {10.4230/lipics.itcs.2018.21},
+  editor = {Herbstritt, Marc},
+  journal = {ITCS 2018},
+  language = {en},
+  title = {Foundations of {{Homomorphic Secret Sharing}}},
+  year = {2018}
+}
+
 @inproceedings{iwcc/hps11,
   author = {Hanrot, Guillaume and Pujol, Xavier and Stehl\'e, Damien},
   booktitle = {{{IWCC}}  2011},
@@ -3477,10 +3538,22 @@
   title = {The 6th {{BIU Winter School}}:  {{CRYPTOGRAPHY IN THE CLOUD}} \textendash{} {{VERIFIABLE COMPUTATION AND SPECIAL ENCRYPTION}}}
 }
 
+@misc{lec/biu17,
+  howpublished = {https://cyber.biu.ac.il/event/the-7th-biu-winter-school/},
+  language = {en-US},
+  title = {The 7th {{BIU Winter School}} on {{Cryptography}}: {{Differential Privacy}}}
+}
+
 @misc{lec/biu18,
   howpublished = {https://cyber.biu.ac.il/event/8th-biu-winter-school/},
   language = {en-US},
   title = {The 8th {{BIU Winter School}} on {{Cryptography}}: {{Secure Key Exchange}}}
+}
+
+@misc{lec/biu19,
+  howpublished = {https://cyber.biu.ac.il/event/the-9th-biu-winter-school-on-cryptography/},
+  language = {en-US},
+  title = {The 9th {{BIU Winter School}} on {{Cryptography}}: {{Zero Knowledge}}}
 }
 
 @misc{lec/can04,
@@ -3503,6 +3576,11 @@
   journal = {YouTube},
   shorttitle = {Universally {{Composable Security}}},
   title = {Universally {{Composable Security}}: {{A Tutorial}}}
+}
+
+@misc{lec/cis18,
+  howpublished = {https://crypto.sjtu.edu.cn/cis2018/},
+  title = {{{CIS}} 2018}
 }
 
 @misc{lec/cr09,
@@ -3625,6 +3703,12 @@
   author = {Okamoto, Tatsuaki},
   file = {/home/akira/Zotero/storage/DVPXNUB8/Okamoto-ChuoKokyuroku_Math~2.pdf;/home/akira/Zotero/storage/JAIFHF5X/Okamoto-ChuoKokyuroku_Math~4.pdf;/home/akira/Zotero/storage/XTPCMPI9/Okamoto-ChuoKokyuroku_Math~3.pdf},
   title = {Okamoto-{{ChuoKokyuroku}}}
+}
+
+@misc{lec/orl17,
+  author = {Orlandi, Claudio},
+  howpublished = {https://blackboard.au.dk/webapps/blackboard/content/listContent.jsp?course\_id=\_66593\_1\&content\_id=\_1060836\_1\&mode=reset},
+  title = {E17 - {{Cryptographic Computing}}}
 }
 
 @misc{lec/pass11,
@@ -5039,6 +5123,48 @@
   year = {2011}
 }
 
+@inproceedings{tcc/gghr14,
+  author = {Garg, Sanjam and Gentry, Craig and Halevi, Shai and Raykova, Mariana},
+  booktitle = {{{TCC}} 2014},
+  editor = {Lindell, Yehuda},
+  isbn = {978-3-642-54242-8},
+  keywords = {Common Reference String,Homomorphic Encryption,Honest Party,Ideal Functionality,Random Coin},
+  language = {en},
+  pages = {74-94},
+  publisher = {{Springer Berlin Heidelberg}},
+  series = {Lecture Notes in Computer Science},
+  title = {Two-{{Round Secure MPC}} from {{Indistinguishability Obfuscation}}},
+  year = {2014}
+}
+
+@inproceedings{tcc/gis18,
+  author = {Garg, Sanjam and Ishai, Yuval and Srinivasan, Akshayaram},
+  booktitle = {{{TCC}} 2018},
+  editor = {Beimel, Amos and Dziembowski, Stefan},
+  isbn = {978-3-030-03807-6},
+  language = {en},
+  pages = {123-151},
+  publisher = {{Springer International Publishing}},
+  series = {Lecture Notes in Computer Science},
+  shorttitle = {Two-{{Round MPC}}},
+  title = {Two-{{Round MPC}}: {{Information}}-{{Theoretic}} and {{Black}}-{{Box}}},
+  year = {2018}
+}
+
+@inproceedings{tcc/gp15,
+  author = {Garg, Sanjam and Polychroniadou, Antigoni},
+  booktitle = {{{TCC}} 2015},
+  editor = {Dodis, Yevgeniy and Nielsen, Jesper Buus},
+  isbn = {978-3-662-46497-7},
+  keywords = {Commitment Scheme,Common Reference String,Encryption Scheme,Honest Party,Private Input},
+  language = {en},
+  pages = {614-637},
+  publisher = {{Springer Berlin Heidelberg}},
+  series = {Lecture Notes in Computer Science},
+  title = {Two-{{Round Adaptively Secure MPC}} from {{Indistinguishability Obfuscation}}},
+  year = {2015}
+}
+
 @inproceedings{tcc/ikm+13,
   author = {Ishai, Yuval and Kushilevitz, Eyal and Meldgaard, Sigurd and Orlandi, Claudio and {Paskin-Cherniavsky}, Anat},
   booktitle = {{{TCC}} 2013},
@@ -5065,6 +5191,20 @@
   series = {Lecture Notes in Computer Science},
   title = {Further {{Simplifications}} in {{Proactive RSA Signatures}}},
   year = {2005}
+}
+
+@inproceedings{tcc/lind15,
+  author = {Lindell, Yehuda},
+  booktitle = {{{TCC}} 2015},
+  editor = {Dodis, Yevgeniy and Nielsen, Jesper Buus},
+  isbn = {978-3-662-46494-6},
+  keywords = {Commitment Scheme,Hash Function,Interactive Proof System,Random Oracle,Random Oracle Model},
+  language = {en},
+  pages = {93-109},
+  publisher = {{Springer Berlin Heidelberg}},
+  series = {Lecture Notes in Computer Science},
+  title = {An {{Efficient Transform}} from {{Sigma Protocols}} to {{NIZK}} with a {{CRS}} and {{Non}}-Programmable {{Random Oracle}}},
+  year = {2015}
 }
 
 @inproceedings{tcc/rtv04,
